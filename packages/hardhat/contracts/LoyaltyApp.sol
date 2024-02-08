@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts@4.9.5/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts@4.9.5/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts@4.9.5/access/Ownable.sol";
 
 contract LoyaltyApp is ERC721, Ownable {
     // Variables
